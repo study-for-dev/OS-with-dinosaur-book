@@ -6,7 +6,7 @@
 
 - 컴퓨터(computer) 시스템을 운영하는 소프트웨어
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled.png)
 
 ## 컴퓨터(Computer)란?
 
@@ -75,7 +75,7 @@
 
 ## 앨런 튜링이 컴퓨터의 할아버지인 이유
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%201.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%201.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%201.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%201.png)
 
 - 현대적 컴퓨터의 원형을 설계
 - 유니버셜 튜링 머신 == 운영체제
@@ -87,7 +87,7 @@
     - fetch - execute 사이클을 사용한 컴퓨터
 - 폰 노이만 아키텍쳐 == ISA (instruction set architecture)
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%202.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%202.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%202.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(1)%20e5d3f8feb2d74613b0a8eba22c70cf12/Untitled%202.png)
 
 ## 프로그램(program)이란?
 

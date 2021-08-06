@@ -14,7 +14,7 @@
 - CPU + RAM(memory) + storage + I/O 디바이스 등이 bus로 연결됨.
 - + 블루투스 + RF 등 무선 기기
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled.png)
 
 - 현재 modern computer 라고 하면, 양자 컴퓨터, 신경망 컴퓨터, 네트워크 컴퓨터 등을 말한 다. (기존의 폰노이만 아키텍쳐를 따르지않는..)
 
@@ -49,7 +49,7 @@
     - 대부분 디바이스 컨트롤러를 개발한다.
 - ex) S20 → S21 을 만들때, 더 좋은 카메라 디바이스를 추가하는 등 디바이스 컨트롤러를 추가함
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%201.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%201.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%201.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%201.png)
 
 - 디바이스에 따라 CPU를 거처 처리되는 경우도 있지만, memory에 직접 접근하기도 한다.
     - DMA : Direct Memory Access
@@ -61,14 +61,14 @@
 - 메모리는 한개 + 여러 개의 CPU를 사용
     - ex) 슈퍼컴퓨터
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%202.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%202.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%202.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%202.png)
 
 ## Multi-core design
 
 - CPU 여러 개를 부착하는 것은 많은 비용이 들어간다.
 - 하나의 CPU안에 CPU core가 여러 개 들어가 있는 구조
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%203.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%203.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%203.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%203.png)
 
 # 1.4 Computer System Operations
 
@@ -78,7 +78,7 @@
 - 메모리에 여러개의 프로세스가 올라가 있음
 - 장점 : CPU 사용효율을 높일 수 있다
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%204.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%204.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%204.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%204.png)
 
 ## Multitasking (multiprocessing)
 
@@ -100,7 +100,7 @@
 
     ex)  user mode에서 system call을 하면, kernel mode에서 system call을 수행한다.(user mode에서는 system call을 처리할 수 없다.)
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%205.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%205.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%205.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%205.png)
 
 # 1.7 Virtualization
 
@@ -110,7 +110,7 @@
 - VMM : Virtual Machine Manager
     - VMware, XEN, WSL등
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%206.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%206.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%206.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%206.png)
 
 # 1.10 Computing Environments
 
@@ -120,21 +120,21 @@
 - Moblie Computing
 - Client-Server Computing : Web, 1:1 통신
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%207.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%207.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%207.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%207.png)
 
 - Peer-to-Peer Computing : 음악/영화 파일공유, 비트토렌트, BitCoin(BlockChain), N:N 통신
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%208.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%208.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%208.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%208.png)
 
 - Cloud Computing : AWS, Azure, GCP..
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%209.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%209.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%209.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%209.png)
 
 - Real-Time Enbedded System : Vxworks, RTOS
 
 # 2.1 Operating System Service
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2010.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2010.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2010.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2010.png)
 
 # 2.2 User and Operating-System Interface
 
@@ -156,4 +156,4 @@
 - printf 를 사용하기만 하면 라이브러리가 System call 하여 처리해줌
     - 콘솔 open, 버퍼 전송, close 등의 과정을 일일히 명령하지 않고, 라이브러리가 처리해줌
 
-![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2011.png](Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2011.png)
+![Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2011.png](image/Chapter%201-2%20Introduction%20&%20OS%20Structures%20(2)%20a3b739afcf2f4fbfabdef1da22102e35/Untitled%2011.png)
