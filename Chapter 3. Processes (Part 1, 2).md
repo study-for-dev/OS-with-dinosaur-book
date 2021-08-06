@@ -11,7 +11,7 @@
 
 # 메모리에서의 프로세스 구조
 
-![memory structure](image/Chapter 3. Processes (Part 1, 2)/memory.JPG)
+![memory structure](image/Chapter3.Processes(Part1-2)/memory.JPG)
 
 - text section : 가장 기본적인 명령어 코드들
 - data section : global, static 변수들
@@ -26,7 +26,7 @@
 
 ### 자바 프로그램 동작 방식
 
-![jvm](image/Chapter 3. Processes (Part 1, 2)/JVM.JPG)
+![jvm](image/Chapter3.Processes(Part1-2)/JVM.JPG)
 
 1. JVM이 OS에게 메모리를 할당 받는다.
 2. 자바 컴파일러가 자바 소스코드를(.java 파일) 컴파일하여 자바 바이트코드로(.class 파일) 변환한다.
@@ -39,7 +39,7 @@
 ### Runtime Data Area
 #### 그래서 Runtime Data Area는 어떻게 나눠져 있는데?
 
-![runtimedataarea](image/Chapter 3. Processes (Part 1, 2)/RuntimeDataArea.JPG)
+![runtimedataarea](image/Chapter3.Processes(Part1-2)/RuntimeDataArea.JPG)
 
 #### 1. JVM Stack (= Stack) 
 - 함수 호출에 관련된 모든 정보들
@@ -92,7 +92,7 @@ obj.live();
 - 프레임워크 내부적으로 많이 사용되어있다고 함 (아마 Spring MVC에서 디스패쳐 서블릿이 어떤 핸들러 어댑터를 사용할지 모르는 상황에서 핸들러 어댑터를 사용하는 상황을 말하는 듯)
 - 다만, 런타임에 직접 타입 분석을 하게 되니 더 많은 부하가 발생
 
-![springmvc](image/Chapter 3. Processes (Part 1, 2)/springmvc.JPG)
+![springmvc](image/Chapter3.Processes(Part1-2)/springmvc.JPG)
 
 
 
@@ -106,7 +106,7 @@ obj.live();
 
 ## 프로세스 상태 주기
 
-!(processdiagram)[image/Chapter 3. Processes (Part 1, 2)/process diagram.JPG]
+![processdiagram](image/Chapter3.Processes(Part1-2)/process-diagram.JPG)
 
 - new : 막 생성된 상태. 머물러있는 상태라기보다는 그냥 생성 직후의 상태를 말한다.
 - running : 실행중
