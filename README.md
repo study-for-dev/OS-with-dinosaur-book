@@ -20,8 +20,8 @@
 ```
 
 ## 🏫 스터디 진행
-|  | 날짜 | 범위 |  
-|:---:|:---:|:---:|
-| 1주차 | 2021년 7월 31일 | Chapter 1-2. Introduction & O/S Structures | 
-| 2주차 | 2021년 8월 7일 | Chapter 3. Processes (Part1~ Part2)  | 
-| 3주차 | 2021년 월 일 | 섹션  | 
+|  | 날짜 | 범위 | 강의 |
+|:---:|:---:|:---:|:---:|
+| 1주차 | 2021년 7월 31일 | Chapter 1-2. Introduction & O/S Structures | [1강](Chapter 1-2 Introduction & OS Structures (1).md), [2강](Chapter 1-2 Introduction & OS Structures (2))|
+| 2주차 | 2021년 8월 7일 | Chapter 3. Processes (Part1~ Part2)  | 3-4강 |
+| 3주차 | 2021년 월 일 | 섹션  | |
