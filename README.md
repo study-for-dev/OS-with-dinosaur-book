@@ -22,6 +22,6 @@
 ## 🏫 스터디 진행
 |  | 날짜 | 범위 | 강의 |
 |:---:|:---:|:---:|:---:|
-| 1주차 | 2021년 7월 31일 | Chapter 1-2. Introduction & O/S Structures | [1강](Chapter 1-2 Introduction & OS Structures (1).md), [2강](Chapter 1-2 Introduction & OS Structures (2))|
+| 1주차 | 2021년 7월 31일 | Chapter 1-2. Introduction & O/S Structures | [1강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter%201-2%20Introduction%20%26%20OS%20Structures%20(1).md), [2강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter%201-2%20Introduction%20%26%20OS%20Structures%20(2).md)|
 | 2주차 | 2021년 8월 7일 | Chapter 3. Processes (Part1~ Part2)  | 3-4강 |
 | 3주차 | 2021년 월 일 | 섹션  | |
