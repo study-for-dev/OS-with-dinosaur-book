@@ -62,9 +62,14 @@
 #### 5. PC Register 
 - (???) 레지스터는 원래 CPU에 있는건데..? 이름만 레지스터이고 그냥 메모리일 뿐인 건가? 
 
+
+※ 자바8부터 static 변수는 Class Area가 아닌 Heap Area에 저장되는 것으로 바뀌었다고 함.
+
+
 #### 참고 링크
 > ##### https://asfirstalways.tistory.com/158 
 > ##### https://velog.io/@ditt/JavaJVM-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD
+> ##### https://stackoverflow.com/questions/8387989/where-are-static-methods-and-static-variables-stored-in-java
 
 
 ## TMI 2 : JAVA Reflection API (Real TMI)
