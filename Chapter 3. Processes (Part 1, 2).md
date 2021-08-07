@@ -1,15 +1,23 @@
 # Chapter 3. Processes (Part 1, 2)
 
+#
+#
 
 # 프로세스의 이해
 
+#
+#
 
 # 프로세스란?
 - 실행중인 프로그램 (program in execution)
 - 좀 더 자세하게는, HDD상의 프로그램이 아닌 메모리에 로딩되어 CPU가 바로 fetch할  수 있는 프로그램
 - OS의 주된 역할은 이 '프로세스'를 관리하는 것.
 
+#
+
 # 메모리에서의 프로세스 구조
+
+#
 
 ![memory structure](image/Chapter3.Processes(Part1-2)/memory.JPG)
 
@@ -18,13 +26,18 @@
 - heap section : malloc, new 등 동적으로 할당된 공간
 - stack section : 함수 호출 관련 정보들 (파라미터, 리턴 주소, 로컬 변수 등)
 
+#
 
 ## TMI 1 : Process in JAVA?
 - OS와 프로세스의 기본 컨셉 : OS가 프로그램에 직접 접근하여 메모리를 할당하고 프로세스 수행
 - JAVA 프로그램은 OS가 직접 접근하지 않는다. JVM 이라는 중간자가 존재하는 특수성.
 - 그럼 JAVA에서는 프로세스가 일반적인 경우와는 다른 형태의 공간에 존재하게 되지 않을까?
 
+#
+
 ### 자바 프로그램 동작 방식
+
+#
 
 ![jvm](image/Chapter3.Processes(Part1-2)/JVM.JPG)
 
@@ -36,8 +49,12 @@
 
 그 외 GC 등의 부분은 나중에...
 
+#
+
 ### Runtime Data Area
 #### 그래서 Runtime Data Area는 어떻게 나눠져 있는데?
+
+#
 
 ![runtimedataarea](image/Chapter3.Processes(Part1-2)/RuntimeDataArea.JPG)
 
@@ -62,15 +79,18 @@
 #### 5. PC Register 
 - (???) 레지스터는 원래 CPU에 있는건데..? 이름만 레지스터이고 그냥 메모리일 뿐인 건가? 
 
+#
 
 ※ 자바8부터 static 변수는 Class Area가 아닌 Heap Area에 저장되는 것으로 바뀌었다고 함.
 
+#
 
 #### 참고 링크
 > ##### https://asfirstalways.tistory.com/158 
 > ##### https://velog.io/@ditt/JavaJVM-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD
 > ##### https://stackoverflow.com/questions/8387989/where-are-static-methods-and-static-variables-stored-in-java
 
+#
 
 ## TMI 2 : JAVA Reflection API (Real TMI)
 (자바의 동작 방식에 대해 얘기하다보니.. 컴파일타임, 런타임  이라는 주제로 아주 조금은 연관성이 있는 거 같아서)
@@ -83,12 +103,17 @@ class Person {
 Object obj = new Person();
 obj.live();
 ```
+
+#
+
 위 코드는 다형성에 의해 컴파일 오류가 나지는 않지만 런타임 에러가 발생한다.
 그 이유는 다음과 같다.
 - 자바의 인스턴스 변수 타입은 컴파일 타임에 정의된다.
 - obj는 컴파일 시에 Object 객체 타입으로 정의되어버렸기 때문에 런타임에서 Person의 정보를 찾을 수 없다.
  
  이러한 문제를 JAVA Reflection API를 통해 해결할 수 있다.
+ 
+ #
  
 ### What is JAVA Reflection API and How does it work?
 - 인스턴스 변수에 실제로 할당된 객체의 구체적인 타입을 모르더라도 해당 객체의 정보들을 알 수 있도록 해주는 API
@@ -97,17 +122,20 @@ obj.live();
 - 프레임워크 내부적으로 많이 사용되어있다고 함 (아마 Spring MVC에서 디스패쳐 서블릿이 어떤 핸들러 어댑터를 사용할지 모르는 상황에서 핸들러 어댑터를 사용하는 상황을 말하는 듯)
 - 다만, 런타임에 직접 타입 분석을 하게 되니 더 많은 부하가 발생
 
+#
+
 ![springmvc](image/Chapter3.Processes(Part1-2)/springmvc.JPG)
 
-
+#
 
 실제로 Reflection API를 사용하게 되는 일은 거의 없는 듯..? 그냥 면접용 지식으로 알아두면 좋을만한 정도라고 생각.
+
+#
 
 #### 참고 링크
 > ##### https://woowacourse.github.io/tecoble/post/2020-07-16-reflection-api/
 
-
-
+#
 
 ## 프로세스 상태 주기
 
@@ -121,6 +149,7 @@ obj.live();
 
 실질적으로 프로세스가 돌면서 머무르는 상태트 2, 3, 4 셋 뿐이라고 봐도 될 듯.
 
+#
 
 ## 프로세스 관리 (PCB)
 프로세스의 정보는 PCB라는 구조체에 저장되며 각 PCB는 OS 커널에 의해 생성, 관리된다.
@@ -137,6 +166,7 @@ PCB에 저장되는 내용은 다음과 같다.
 여기서부턴.. 너무 졸려서 좀 대충 썼습니다.. 나중에 정리할게요...ㅜㅜ
 
 
+#
 
 
 A tree of processes 이해 안 가는 점
