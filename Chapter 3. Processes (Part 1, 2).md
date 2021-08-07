@@ -107,7 +107,7 @@
 #### 참고 링크
 > ##### JVM - https://asfirstalways.tistory.com/158 
 > ##### JVM memory - https://velog.io/@ditt/JavaJVM-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD
-> ##### static variable in java - https://stackoverflow.com/questions/8387989/where-are-static-methods-and-static-variables-stored-in-java
+> ##### Static variable in JAVA - https://stackoverflow.com/questions/8387989/where-are-static-methods-and-static-variables-stored-in-java
 > ##### JNI - https://mommoo.tistory.com/71 
   
 #
@@ -153,7 +153,7 @@ obj.live();
 #
 
 #### 참고 링크
-> ##### https://woowacourse.github.io/tecoble/post/2020-07-16-reflection-api/
+> ##### JAVA Reflection API - https://woowacourse.github.io/tecoble/post/2020-07-16-reflection-api/
 
 #
 
