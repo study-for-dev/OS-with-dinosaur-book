@@ -1,4 +1,4 @@
-#프로세스 간 통신
+# 프로세스 간 통신
 
 프로세스에는 2가지 종류가 있다.
 
@@ -7,7 +7,7 @@
 * cooperating process
     * 다른 프로세스와 데이터를 공유
 
-##IPC란?
+## IPC란?
 * IPC는 inter process communication으로써 Cooperating process는 IPC mechanism이 필요하다. 서로 데이터를 공유하기 위한 방식이다.
 
 IPC 방법에는 2가지가 있는데 
@@ -16,7 +16,7 @@ IPC 방법에는 2가지가 있는데
 
 ~image
 
-##Producer-Consumer Problem
+## Producer-Consumer Problem
 쉽게 생각해서 한 프로세스는 생산해서 넣고 다른 프로세스는 그걸 가져다 쓰는 구조를 말한다.
 
 ### shared memory 사용 방법
