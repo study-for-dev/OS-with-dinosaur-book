@@ -76,6 +76,21 @@ Dispatcher latency : The time to stop one process and start another running
 ### 대표적인 스케쥴링 방식
 FCFS, SJF(SRTF), RR, MLQ, MLFQ 
 
+#### 각 방식 별 주의사항
+1. SJF : 기아 현상 발생 가능성 존재. aging을 통해 기아 문제 해결.
+2. SJF : p/np 모두 가능. p 방식의 SJF를 SRTF라고 한다.
+3. RR : 가장 효율적으로 수행 가능한 time quantum size를 정하는 것이 중요.
+
+
+
+현대 OS에서는 프로세스 스케쥴링을 하지 않는다. (스레드가 존재하기 때문)
+스레드 중에서도 커널 스레드에 대한 스케쥴링만 하면 된다.
+
+user thread는 thread library가 관리한다. ( 커널은 이에 관여하지 않는다. )
+그래서 사실 kernel thread에 대해서만 스케쥴링해주면 된다.
+user thread에 대해서는 커널스레드를 매핑만 해주면 됨.
+
+
 
 
 각종 계산은 생략. 시험볼것도 아니고..ㅋㅋ
