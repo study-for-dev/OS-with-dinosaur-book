@@ -68,7 +68,8 @@ but all of the application code and user issued processes run in the application
 
 
 
-Dispatcher latency : The time to stop one process and start another running.
+Dispatcher latency : The time to stop one process and start another running
+> 그냥 컨텍스트 스위칭에 걸리는 시간이라고 봐도 무방할 듯
 
 
 
