@@ -21,9 +21,8 @@
 ## 프로세스의 4가지 동작
 1. run -> wait
 2. run -> ready
-3. wait -> ready
+3. wait -> ready (wait -> run은 없다. 반드시 ready를 거쳐야 함)
 4. terminate
-(wait -> run은 없다. 반드시 ready를 거쳐야 함)
 
 1, 4 : cpu를 할당받은 프로세스에 의해 자발적으로 수행되는 작업. 즉, non-preemptive일 수 밖에 없다.
 2, 3 : p, np 중 하나를 선택하여 수행할 수 있다.
