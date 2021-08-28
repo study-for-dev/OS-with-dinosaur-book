@@ -6,7 +6,7 @@
 ## 스케쥴링의 목적? 
 - CPU에게 일을 최대한 많이 시키자!
 
-![image/Chapter5.CPU_Scheduling/burst.JPG]
+![cpu_burst](image/Chapter5.CPU_Scheduling/burst.JPG)
 
 ### CPU burst보다 I/O burst가 훨씬 높다. I/O burst동안 CPU를 놀리지 않게 하기 위함.
 
