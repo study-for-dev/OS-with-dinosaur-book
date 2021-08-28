@@ -61,6 +61,9 @@ but all of the application code and user issued processes run in the application
 
 여튼, 중요 자원에 접근한 후 다시 애플리케이션을 동작을 수행하기 위해 user mode 로 전환하는 역할을 디스패처가 한다.
 
+#### user / kernel 모드 참고 링크
+> https://jhnyang.tistory.com/190
+> https://blockdmask.tistory.com/69
 
 
 
