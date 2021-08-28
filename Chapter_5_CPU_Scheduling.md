@@ -63,6 +63,7 @@ but all of the application code and user issued processes run in the application
 
 #### user / kernel 모드 참고 링크
 > https://jhnyang.tistory.com/190
+> 
 > https://blockdmask.tistory.com/69
 
 
