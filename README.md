@@ -27,5 +27,5 @@
 | 3주차 | 2021년 8월 14일 | Chapter 3. Processes (Part3~ Part4)  | 5,6강 | @동헌 |
 | 4주차 | 2021년 8월 28일 | Chapter 4. Thread & Concurrency  | [7강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_4._thread__concurrency_(part_1).pdf),[8강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_4._thread__concurrency_(part_2).pdf) | @유진 |
 | 5주차 | 2021년 9월 12일 | Chapter 5. CPU Schduling  | [9,10강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_5_CPU_Scheduling.md) | @현강 |
-| 6주차 | 2021년 9월 19일 | Chapter 6. Synchronization Tools (Part1~ Part2)  | [11,12강]() | @동헌 |
+| 6주차 | 2021년 9월 19일 | Chapter 6. Synchronization Tools (Part1~ Part2)  | [11,12강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_6_1_Process_Synchronization.md) | @동헌 |
 | 7주차 | 2021년 9월 26일 | Chapter 7. Synchronization Tools (Part3~ Part4)  | [13,14강]() | @유진 |
