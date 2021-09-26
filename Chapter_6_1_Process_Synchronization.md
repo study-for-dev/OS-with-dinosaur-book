@@ -10,17 +10,18 @@ Cooperating Process를 사용하는 경우 서로 Process에 접근하고 영향
 
 (integrity of data - 데이터의 무결성을 의미한다. 정확하고 일관적인 데이터 값을 유지하는 성질.)
 
-## Data Integrity
 
+
+## Data Integrity
 ### Concurrent Execution시 발생 & parallel Execution 시 발생
 
 이렇게 여러가지 process가 동시에 수행될 수 있는 환경이 되면 위에서 말한것처럼 순서가 지켜지지 않으므로 언제든 context switching이 일어나면서 data integrity를 보장할 수 없는 상황이 된다.
 
 이 강의에서는 Producer - Consumer Problem을 예시로 들었다.
 
+
+
 ### Producer & Consumer Problem
-
-
 
 위의 코드에서는 Buffer에 Producer가 열심히 Buffer를 채워서 넣고 , Consumer는 Buffer값이 0이 아니면 계속해서 빼오는 방식으로 사용하고 있다.
 
@@ -36,17 +37,21 @@ Cooperating Process를 사용하는 경우 서로 Process에 접근하고 영향
 
 위에서 보인 순서대로 수행을 하게 되면 Register에서 가지고 있는 값들이 그 store시점의 count값에 따라 변하고, 그것들을 또 save하는 시점에 그것이 영향을 주기 때문에 정상적인 값이 출력될 수 없는 것이다.
 
+
+
 # Race Condition
 
 Race Condition이란 여러개의 Process가 서로 한정적인 CPU자원을 사용하기위해 경쟁하면서 생기는 상태를 말한다.
 
-
-
 어떤 Race Condition은 두개 이상의 process가 어떤 data를 공유하고 있을 때, concurrent하게 접근하고 처리해야할 때 발생하고, 실행의 결과는 순서에 따라서 그때 그때 달라질 수 있다.
+
+
 
 ## Race Condition 해결 방법
 
 특정 시간에 오직 한개의 프로세스만 shared data를 처리 할 수 있다고 하면 별 문제가 발생하지 않을 것이다. 이 방법을 process synchronization이라고 한다.
+
+
 
 # Critical Section Problem - 임계 영역 문제
 
@@ -62,6 +67,8 @@ n개의 프로세스가 있을 때, 각각의 코드 영역을 critical section�
 4.  Remainder Section -> ?
 
 Critical Section 영역은 반드시 한번에 실행 될 수 있도록, 여기에 진입하면 다음 프로세스가 접근할 수 없도록 만들어주는 것이라고 한다.
+
+
 
 ## Critical Section 문제 해결방법
 
@@ -87,6 +94,8 @@ Single core에서 해결할 수 있는 가장 간단한 방법은 interrupt가 �
 
 \-> 하지만 이 방법도 조금만 복잡해지면 사용하기가 어렵다. 멀티프로세스 환경에서는 코어가 많기 때문에 모든 코어에 interrupt를 막는 방식으로 구현해야하기 때문에 사용하기 어렵다. (성능 저하 등) Critical Section이 길어지는 영역등이 많고 그렇게 되면 이 방식으로 구현하는 것이 어려워진다.
 
+
+
 ### Preemptive vs non-preemptive Kernels
 
 비선점형
@@ -98,6 +107,8 @@ Single core에서 해결할 수 있는 가장 간단한 방법은 interrupt가 �
 
 -   프로세스가 중간에 언제든지 CPU를 빼앗길 수 있다. 하지만 성능이 좋기 떄문에 사용을 한다.
 
+
+
 # Critical Section Problem's Solution
 
 Software로 해결할 수 있는 여러가지 방법이 존재한다.
@@ -107,6 +118,8 @@ Dekeer 알고리즘 - 2개의 프로세스
 Eisenberg and McGuires 알고리즘 - n개의 프로세스
 
 Bakery 알고리즘 - 램포트? 가 제안한건데 안다룬거라고 한다.
+
+
 
 ## Peterson's Algorithm
 
@@ -132,6 +145,8 @@ Peterson이 해결한 방법은 다음과 같다.
 따라서 peterson알고리즘은 동작이 완벽하게 검증되어있다기 보다는, 해당 이론을 통해서 Critical Section Problem을 잘 설명할 수 있고, 해결방법 3가지를 peterson알고리즘으로 증명할 수 있다는 것에 더 큰 의미가 있다.
 
 그렇다면 Critical Section Problem을 진짜로 해결할 수 있는 방법은 없는걸까?
+
+
 
 ## Hardware-based solution
 
