@@ -12,7 +12,7 @@
 
 #
 
-![초기화 사진]
+![image/Chapter7.Synchronization_Examples/boundedbufferinit.JPG]
 총 세 개의 세마포어를 사용한다. mutex는 바이너리 세마포어.
 mutex : critical section(버퍼)에 대한 세마포어
 full : 사용 가능한 item 수
@@ -20,7 +20,7 @@ empty : 버퍼의 빈 칸의 수
 
 #
 
-![코드 사진]
+![image/Chapter7.Synchronization_Examples/boundedbuffercode.JPG]
 코드 설명 
 
 
@@ -38,7 +38,7 @@ empty : 버퍼의 빈 칸의 수
 
 
 
-![코드 사진]
+![image/Chapter7.Synchronization_Examples/readerwritercode.JPG]
 rw_mutex, mutex, read_count
 
 mutex : read_count에 대한 바이너리 세마포어
@@ -54,7 +54,7 @@ rw_mutex : 쓰기 연산에 대한 세마포어
 철학자 : process,
 젓가락 : critical section
 
-![사진]
+![image/Chapter7.Synchronization_Examples/diningphilosopher.JPG]
 
 mutual exclusion 까지는 보장되지만 Deadlock, starvation 위험 존재
 
@@ -70,6 +70,6 @@ mutual exclusion 까지는 보장되지만 Deadlock, starvation 위험 존재
 
 ### 모니터 솔루션
 
-![사진]
+![image/Chapter7.Synchronization_Examples/diningphilosophermonitor.JPG]
 
 
