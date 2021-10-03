@@ -47,8 +47,12 @@ mutex : read_count에 대한 바이너리 세마포어
 read_count : rw_mutex에 영향을 미침
 rw_mutex : 쓰기 연산에 대한 세마포어
 
+??? : 읽기 연산끼리는 동시에 수행하더라도 race condition 발생하지 않음. 강의에서도 언급했던 내용.
+근데 여기선 왜 읽기끼리도 구분? 그냥?
 
-로직 설명하며 동기화 보장됨에 대한 증명
+#
+#
+#
 
 
 ## Dining-Philosophers
