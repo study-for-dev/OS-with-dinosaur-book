@@ -13,6 +13,7 @@
 #
 
 ![boundedbufferinit](image/Chapter7.Synchronization_Examples/boundedbufferinit.JPG)
+
 총 세 개의 세마포어를 사용한다. mutex는 바이너리 세마포어.
 mutex : critical section(버퍼)에 대한 세마포어
 full : 사용 가능한 item 수
