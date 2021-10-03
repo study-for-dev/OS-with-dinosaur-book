@@ -22,8 +22,9 @@ empty : 버퍼의 빈 칸의 수
 #
 
 ![boundedbuffercode](image/Chapter7.Synchronization_Examples/boundedbuffercode.JPG)
-코드 설명 
 
+#
+#
 
 
 ## Readers-Writers
