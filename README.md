@@ -29,6 +29,6 @@
 | 5주차 | 2021년 9월 12일 | Chapter 5. CPU Schduling  | [9,10강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_5_CPU_Scheduling.md) | @현강 |
 | 6주차 | 2021년 9월 19일 | Chapter 6-1. Synchronization Tools (Part1~ Part2)  | [11,12강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_6_1_Process_Synchronization.md) | @동헌 |
 | 7주차 | 2021년 10월 3일 | Chapter 6-2. Synchronization Tools (Part3~ Part4)  | [13,14강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_6_2_synchronization_tools_(2).pdf) | @유진 |
-| 8주차 | 2021년 10월 3일 | Chapter 6-2. Synchronization Examples  | [15,16강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_7_Synchronization_Examples.md) | @현강 |
-| 9주차 | 2021년 10월 17일 | Chapter 7. deadlock  | [17,18강]() | @동헌 |
-| 10주차 | 2021년 10월 17일 | Chapter 8. main memory  | [19,20강]() | @유진 |
+| 8주차 | 2021년 10월 3일 | Chapter 7. Synchronization Examples  | [15,16강](https://github.com/study-for-dev/OS-with-dinosaur-book/blob/main/Chapter_7_Synchronization_Examples.md) | @현강 |
+| 9주차 | 2021년 10월 17일 | Chapter 8. deadlock  | [17,18강]() | @동헌 |
+| 10주차 | 2021년 10월 17일 | Chapter 9. main memory  | [19,20강]() | @유진 |
